@@ -17,7 +17,7 @@
   justify-content: space-between;
   align-items: center;
   /* background: rgba(0, 0, 0, 0.582); */
-  background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+  background: linear-gradient(180deg, #ffc918 26.71%, #fa901f 99.36%);
   color: white;
   transform: translateY(100%);
   transition: all 0.35s ease;
@@ -52,4 +52,9 @@ h3 {
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+}
+
+.heading{
+    color: var(--black);
+    font-weight: bold;
 }

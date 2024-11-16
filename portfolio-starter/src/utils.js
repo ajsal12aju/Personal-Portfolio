@@ -17,46 +17,51 @@ export const cardsData = [
       "Awesome Full Stack Chat App Project with realtime messaging fuctionality with socket.io",
   },
   {
-    image: AdminDashboard,
-    name: "Ecommerce",
+    image: BookingApp,
+    name: "MERN Booking App",
     socialLink: { url: "#", iconClass: "fab fa-instagram" },
-    description: "hello world",
+    description:
+      "MERN Booking App with complete functionality and jwt Authantication",
   },
   {
     image: Netflix,
-    name: "Shopie",
+    name: "Netflix",
     socialLink: { url: "#", iconClass: "fab fa-instagram" },
-    description: "hello world",
-  },
-  {
-    image: BookingApp,
-    name: "Shopie",
-    socialLink: { url: "#", iconClass: "fab fa-instagram" },
-    description: "hello world",
-  },
-
-  {
-    image: OnlineShop,
-    name: "Shopie",
-    socialLink: { url: "#", iconClass: "fab fa-instagram" },
-    description: "hello world",
+    description:
+      "Website designed Like Netflix Using React Integrated Open API",
   },
   {
     image: HomeLand,
-    name: "Shopie",
+    name: "Home Land",
     socialLink: { url: "#", iconClass: "fab fa-instagram" },
-    description: "hello world",
+    description: "Website designed for construction professionalsd",
+  },
+  {
+    image: AdminDashboard,
+    name: "Admin Dashboard",
+    socialLink: { url: "#", iconClass: "fab fa-instagram" },
+    description:
+      "Admin dashboard built with React, providing intuitive management tools and real-time data visualization",
   },
   {
     image: ReactPortfolio,
-    name: "Shopie",
+    name: "React Portfolio",
     socialLink: { url: "#", iconClass: "fab fa-instagram" },
-    description: "hello world",
+    description:
+      "Animated React portfolio showcasing projects with smooth transitions.",
   },
   {
-    image: VegStore,
-    name: "Shopie",
+    image: OnlineShop,
+    name: "Online Shoppie",
     socialLink: { url: "#", iconClass: "fab fa-instagram" },
-    description: "hello world",
+    description:
+      "An online shopping platform for a seamless and user-friendly shopping experience",
+  },
+
+  {
+    image: VegStore,
+    name: "Veg Store",
+    socialLink: { url: "#", iconClass: "fab fa-instagram" },
+    description: "Static Veg Store.",
   },
 ];

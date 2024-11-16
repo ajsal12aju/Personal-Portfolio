@@ -9,7 +9,7 @@ function Card({ image, name, socialLink,description }) {
     >
       <div className='content'>
         <div style={{display:'flex',justifyContent:'center',alignItems:'center',width:'100%',flexDirection:'column'}}>
-        <h3 style={{padding:'0px', margin:'0px'}}>{name}</h3>
+        <h3 className='heading' style={{padding:'0px', margin:'0px'}}>{name}</h3>
         <p style={{padding:'0px', margin:'0px'}}>{description}</p>
         </div>
         <div className='icons'>

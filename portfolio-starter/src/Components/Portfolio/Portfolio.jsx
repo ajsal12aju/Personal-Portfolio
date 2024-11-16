@@ -11,55 +11,13 @@ import Admin from '../../img/admin.png';
 // import Home from '../../img/homw.png';
 import Card from '../ProjectCard/projectCard';
 import { themeContext } from '../../Context';
+import {cardsData} from '../../utils'
 
 function Portfolio() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
 
-  const cardsData = [
-    {
-      image: Ecommerce,
-      name: 'Ecommerce',
-      socialLink: { url: '#', iconClass: 'fab fa-instagram' },
-      description:'hello world'
-    },
-     {
-      image: Admin,
-      name: 'Shopie',
-      socialLink: { url: '#', iconClass: 'fab fa-instagram' },
-            description:'hello world'
-
-    },
-     {
-      image: Admin,
-      name: 'Shopie',
-      socialLink: { url: '#', iconClass: 'fab fa-instagram' },
-            description:'hello world'
-
-    },
-     {
-      image: Admin,
-      name: 'Shopie',
-      socialLink: { url: '#', iconClass: 'fab fa-instagram' },
-            description:'hello world'
-
-    },
-     {
-      image: Admin,
-      name: 'Shopie',
-      socialLink: { url: '#', iconClass: 'fab fa-instagram' },
-            description:'hello world'
-
-    },
-     {
-      image: Admin,
-      name: 'Shopie',
-      socialLink: { url: '#', iconClass: 'fab fa-instagram' },
-            description:'hello world'
-
-    },
-    // Add more card objects as needed
-  ];
+  
 
   return (
     <div className='portfolio'>

@@ -10,7 +10,7 @@ function Card({ image, name, socialLink,description }) {
       <div className='content'>
         <div style={{display:'flex',justifyContent:'center',alignItems:'center',width:'100%',flexDirection:'column'}}>
         <h3 style={{padding:'0px', margin:'0px'}}>{name}</h3>
-        <h5 style={{padding:'0px', margin:'0px'}}>{description}</h5>
+        <p style={{padding:'0px', margin:'0px'}}>{description}</p>
         </div>
         <div className='icons'>
           <a href={socialLink.url} target='_blank' rel='noopener noreferrer'>

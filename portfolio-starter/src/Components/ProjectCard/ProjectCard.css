@@ -12,11 +12,12 @@
   width: 100%;
   /* padding: 10px 20px; */
   box-sizing: border-box;
-  height: 100px;
+  height: 250px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rgba(0, 0, 0, 0.582);
+  /* background: rgba(0, 0, 0, 0.582); */
+  background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
   color: white;
   transform: translateY(100%);
   transition: all 0.35s ease;

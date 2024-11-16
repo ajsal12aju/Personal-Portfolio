@@ -1,0 +1,81 @@
+.portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+    margin-top: 2rem;
+}
+
+
+/* Mobile View */
+@media screen and (max-width: 768px) {
+    .portfolio {
+        height: auto; /* Remove fixed height for flexibility */
+        margin-top: 1rem;
+    }
+
+    .portfolio img {
+        width: 15rem; /* Adjust image size for better fit */
+    }
+}
+
+/* Very Small Screens */
+@media screen and (max-width: 480px) {
+    .portfolio {
+        padding: 0 1rem; /* Add padding for better spacing */
+    }
+
+    .portfolio img {
+        width: 12rem; /* Reduce image size for small screens */
+    }
+}
+
+
+/* .card1{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items:flex-end;
+    overflow: hidden;
+    background: url("https://images.unsplash.com/photo-1555489400-df7b0ded356d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1740&q=80");
+    background-size: cover;
+    background-position: center;
+} */
+
+.content{
+    width:100%;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.582);
+    color: white;
+    transform: translateY(100%);
+    transition: all 0.35s ease;
+}
+
+.card1:hover .content{
+    transform: translateY(0);
+}
+
+h3{
+    font-size: 30px;
+}
+
+.icons{
+    width: 130px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icons i{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.274);
+    transition: all 0.2s ease;
+}
+
+.icons i:hover{
+    color: rgba(255, 255, 255, 0.438);
+}

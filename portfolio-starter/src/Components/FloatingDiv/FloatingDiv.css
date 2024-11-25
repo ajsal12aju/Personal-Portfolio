@@ -9,10 +9,26 @@
     align-items: center;
 }
 .floatingdiv>img{
-    transform: scale(0.4);
+    /* width: 50px; */
+    transform: scale(0.3);
 }
 .floatingdiv>span{
     font-family: sans-serif;
     font-size: 16px;
     color: black;
 }
+@media (max-width:768px) {
+    .floatingdiv>img {
+        width: 35px;
+        transform: none;
+    }
+    .floatingdiv {
+        padding: 10px 20px;
+        height: auto;
+        gap: .5rem;
+    }
+    .floatingdiv>span {
+        font-size: 13px;
+    }
+   }
+

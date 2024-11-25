@@ -29,8 +29,9 @@ function Contact() {
       
       
   return (
-    <div className='contact-form'>
-        <div className="w-left">
+    <div className='container contact-form'>
+      <div className='row'>
+        <div className="col-md-5 w-left">
             <div className="awesome">
                 <span style={{color:darkMode ? 'white':''}}>Get in touch her </span>
                 <span>Contact Me</span>
@@ -40,7 +41,7 @@ function Contact() {
                 ></div>
             </div>
         </div>
-        <div className="c-right">
+        <div className="col-md-7 c-right">
             <form ref={form} onSubmit={sendEmail}>
                 <input type="text" name='user_name' className='user' placeholder='Name' />
                 <input type="email" name='user_email' className='user' placeholder='Email' />
@@ -52,6 +53,7 @@ function Contact() {
                 ></div>
 
             </form>
+        </div>
         </div>
     </div>
   )

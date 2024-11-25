@@ -1,20 +1,22 @@
 .services {
-    padding: 0 6rem 0 3rem;
-    display: flex;
-    height: 77vh;
-    margin-top: 1rem;
+    /* padding: 0 6rem 0 3rem; */
+    /* display: flex; */
+    /* height: 100vh; */
+    margin-top: 5rem;
     margin-bottom: 4rem;
-    flex-wrap: wrap; /* Allow wrapping of content */
-    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
 }
 
 .awesome {
+    position: relative;
     display: flex;
     flex-direction: column;
-    position: relative;
-    margin-right: 9rem;
-    flex: 1;
-    max-width: 45%;
+    justify-content: center;
+    /* position: relative; */
+    /* margin-right: 9rem; */
+    /* flex: 1; */
+    /* max-width: 45%; */
 }
 
 .awesome > :nth-child(1) {
@@ -31,28 +33,32 @@
 
 .awesome > :nth-child(3) {
     color: var(--gray);
-    font-size: 20px;
-    margin-top: 1rem;
+    font-size: 18px;
+    /* margin-top: 1rem; */
 }
 
 .s-button {
     width: 10rem;
     height: 2.5rem;
-    margin-top: 2.3rem;
+    margin-top: 0.3rem;
 }
 
 .cards {
-    position: relative;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    /* position: relative;
     flex: 1;
     display: flex;
-    flex-wrap: wrap; /* Ensure cards wrap when necessary */
+    flex-wrap: wrap; 
     justify-content: space-between;
-    gap: 2rem;
+    gap: 2rem; */
 }
 
 .cards > * {
     position: relative;
-    width: 30%; /* Default card width */
+    /* width: 30%; Default card width */
 }
 
 /* Mobile view adjustments */
@@ -67,7 +73,6 @@
     .awesome {
         margin-right: 0;
         max-width: 100%;
-        text-align: center;
     }
 
     .awesome > :nth-child(1), .awesome > :nth-child(2) {
@@ -77,19 +82,9 @@
     .s-button {
         width: 12rem;
         height: 2.8rem;
-        margin-top: 1.5rem;
     }
 
-    .cards {
-        display: flex;
-        flex-wrap: wrap; /* Cards will now wrap into rows */
-        justify-content: center;
-        gap: 2rem;
-    }
 
-    .cards > * {
-        width: 45%; /* Card width will be 45% for medium screens */
-    }
 
     .s-blur2 {
         left: 0;
@@ -104,32 +99,13 @@
 
 /* Mobile portrait adjustments */
 @media screen and (max-width: 480px) {
-    .services {
-        padding: 0;
-        margin-top: 2rem;
-        flex-direction: column;
-        gap: 4rem;
-    }
 
     .cards {
-        display: flex;
-        flex-wrap: wrap; /* Ensure cards still wrap */
-        gap: 4rem;
-        width: 100%;
-        justify-content: center; /* Center align the cards */
+        flex-wrap: wrap;
+        gap: 0rem;
+        margin-top: 50px;
     }
-
-    .cards > * {
-        position: static;
-        width: 90%; /* Adjust cards width for smaller screens */
-    }
-
-    .s-button {
-        width: 100%;
-        margin-top: 2rem;
-    }
-
     .s-blur2, .s-blur1 {
-        display: none; /* Hide blur effects on very small screens */
+        display: none;
     }
 }

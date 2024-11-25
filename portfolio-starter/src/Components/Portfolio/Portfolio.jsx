@@ -14,21 +14,22 @@ function Portfolio() {
   
 
   return (
-    <div className='portfolio'>
+    <div className='portfolio container'>
       <span style={{ color: darkMode ? 'white' : '' }}>React Project</span>
       <span>Portfolio</span>
-
-      <div className='card-container'>
+  {/* <div className='row'> */}
+      <div className='card-container row'>
         {cardsData.map((card, index) => (
           <Card 
             key={index} 
             image={card.image} 
             name={card.name} 
-            socialLink={card.socialLink} 
+            socialLink={card.socialLink}  
             description={card.description}
           />
         ))}
       </div>
+      {/* </div> */}
     </div>
   );
 }

@@ -18,3 +18,9 @@
     position: absolute;
     
 }
+@media(max-width: 375px){
+.toggle{
+    position: absolute;
+    right: 0px;
+    top: 5rem;
+}}

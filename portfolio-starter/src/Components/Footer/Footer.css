@@ -3,7 +3,7 @@
     align-items: center;
     margin: -0.5rem -3.5rem; 
     position: relative;
-    margin-top: -7rem;
+    /* margin-top: -7rem; */
 }
 .f-content{
     position: absolute;
@@ -20,3 +20,9 @@
     display: flex;
     gap: 2rem;
 }
+
+
+@media(max-width:480px){
+.f-content {
+    gap: 1rem;
+}}

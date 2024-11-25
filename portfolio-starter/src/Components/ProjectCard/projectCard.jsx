@@ -4,8 +4,9 @@ import './ProjectCard.css';
 function Card({ image, name, socialLink,description }) {
     console.log(socialLink)
   return (
+    <div className='col-md-4'>
     <div 
-      className='card1' 
+      className='card1 ' 
       style={{ backgroundImage: `url(${image})` }}
     >
       <div className='content'>
@@ -20,6 +21,7 @@ function Card({ image, name, socialLink,description }) {
         </div>
        
       </div>
+    </div>
     </div>
   );
 }

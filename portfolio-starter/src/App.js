@@ -10,6 +10,9 @@ import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import { themeContext } from "./Context";
 import { useContext } from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 
 function App() {
  const theme = useContext(themeContext);
@@ -25,7 +28,7 @@ function App() {
         <Experience/>
         <Work/>
         <Portfolio/>
-        {/* <Testimonials/> */}
+        <Testimonials/>
         <Contact/>
         <Footer/>
     </div>

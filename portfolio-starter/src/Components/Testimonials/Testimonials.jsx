@@ -27,7 +27,7 @@ function Testimonials() {
   return (
     <div className='t-wrapper'>
         <div className="t-heading">
-            <span>Clients always get </span>
+            <h1>Clients always get </h1>
             <span> Exceptional Work </span>
             <span> form me...</span>
             <div className='blur t-blur1' style={{background: "var(--purple)" }}></div>

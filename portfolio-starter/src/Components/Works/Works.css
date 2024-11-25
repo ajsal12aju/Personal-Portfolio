@@ -1,44 +1,46 @@
 .works{
-    padding: 0 3rem 0 3rem;
-    display: flex;
-    height: 60vh;
-    margin-top: 4rem;
+    /* padding: 0 3rem 0 3rem; */
+    /* display: flex; */
+    /* height: 60vh; */
+    /* margin-top: 4rem; */
 }
 /* right side */
 .w-right{
     position: relative;
+    display: flex;
+    justify-content: center;
 }
  .w-mainCircle{
-    left:6rem;
+   left: 1rem;
     position: relative;
-    width: 18rem;
-    height: 18rem;
+    width: 15rem;
+    height: 15rem;
     border-radius: 100%;
     box-shadow: var(--smboxShadow);
-    top:2rem;
-    background: white; 
+    top: 2rem;
+    background: white;
  }
  .w-mainCircle>*{
     position: absolute;
  } 
  .w-mainCircle> :nth-child(1){
-    top:-3rem;
-    left: 6rem;
+   top: -3rem;
+   left: 4rem;
  }
  .w-mainCircle> :nth-child(2){
     top: 5rem;
     left: -3rem;
  }
  .w-mainCircle> :nth-child(3){
-    left: 6rem;
+   left: 5rem;
     top: 5rem;
  }
  .w-mainCircle> :nth-child(4){
-    left: 15rem;
+   left: 12rem;
     top: 5rem;
  }
  .w-mainCircle> :nth-child(5){
-    left: 6rem;
+   left: 5rem;
     top: 13rem;
  }
  .w-secCircle{
@@ -61,25 +63,37 @@
  .work{
    width: 170px;
  }
- .w-backCircle{
+ /* .w-backCircle{
     position: absolute;
     height: 13rem;
     width: 13rem;
     border-radius: 100%;
-    z-index: -1;
+    z-index: -100;
  }
  .blueCircle{
     background: #1949B8;
-    left: 15rem;
+    left: 10rem;
     top: 0rem;
+
  }
  .yellowCircle{
     background: #F5C32C;
-    left: 15rem;
+    left: 8rem;
     top: 8rem;
- }
 
- @media screen and (max-width: 480px) {
+ } */
+
+
+ /* @media screen and (max-width:991px){
+   .blueCircle{
+      left: 20rem;
+   }
+   .yellowCircle{
+      left: 17rem;
+   }
+  
+ } */
+ /* @media screen and (max-width: 480px) {
   .works {
     flex-direction: column;
     height: 55rem;
@@ -100,4 +114,157 @@
     left: 8rem!important;
   }
 
+} */
+
+
+.circle-container {
+   position: relative;
+   width: 100%; 
+   height: 400px;
+   margin: 0 auto; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .circle1 {
+   position: absolute;
+   width: 100px;
+   height: 100px;
+   background: white;
+   border-radius: 50%;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 14px;
+   font-weight: bold;
+   text-align: center;
+   color: #333;
+ }
+
+ .circle1 > img{
+  transform: scale(0.4);
 }
+
+ .logo1 {
+   top: 3%;
+   left: 50%;
+   transform: translateX(-50%);
+ }
+ 
+ .logo2 {
+   top: 50%;
+   left: 10%;
+   transform: translate(-50%, -50%);
+ }
+ 
+ .logo3 {
+   top: 50%;
+   right: 10%;
+   transform: translate(50%, -50%);
+ }
+ 
+ .logo4 {
+   bottom: 3%;
+   left: 50%;
+   transform: translate(-50%);
+ }
+ 
+ .logo5 {
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+ }
+ 
+ .yellowCircle{
+  background: #F5C32C;
+  width: 12rem;
+  position: absolute;
+  height: 12rem;
+  border-radius: 50%;
+  z-index: -99;
+  bottom: 0%;
+  left: 74%;
+  transform: translate(-50%);
+ }
+ 
+ .blueCircle{
+  background: #1949B8;
+  position: absolute;
+  width: 12rem;
+  border-radius: 50%;
+  position: absolute;
+  height: 12rem;
+  z-index: -100;
+  top: 33%;
+  left: 19%;
+  transform: translate(50%, -50%);
+ }
+ 
+
+ .circle-container:before {
+   content: '';
+   position: absolute;
+   box-shadow: var(--smboxShadow);
+   width: 300px;
+   height: 300px;
+   background: white;
+   /* background: radial-gradient(circle, #f1f1f1, rgba(0, 0, 0, 0)); */
+   border-radius: 50%;
+   z-index: -1;
+ }
+ 
+
+ @media (min-width:992px) and (max-width: 1200px) {
+  .yellowCircle {
+    width: 10rem;
+    height: 10rem;
+    left: 80%;
+    bottom: 10%;
+}
+.blueCircle {
+  width: 10rem;
+  height: 10rem;
+  left: 10%;
+}
+ }
+
+ @media (max-width: 992px){
+  .logo3 {
+    right: 29%;
+  }
+  .logo2 {
+    left: 29%;
+  }
+ }
+
+ @media (max-width: 767px) {
+  .logo3 {
+    right: 22%;
+  }
+  .logo2 {
+    left: 22%;
+}
+}
+ @media (max-width: 425px) {
+  .logo3 {
+    right: 10%;
+  }
+  .logo2 {
+    left: 10%;
+}
+}
+ @media (max-width: 320px) {
+  .circle1 {
+    width: 90px;
+    height: 90px;
+  }
+  .logo1 {
+    top: 13%;
+  }
+  .logo4 {
+    bottom: 14%;
+  }
+}
+

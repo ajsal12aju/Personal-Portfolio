@@ -14,10 +14,11 @@ function Work() {
   const darkMode = theme.state.darkMode;
 
   return (
-    <div className="works">
-      <div className="awesome">
-        <span  style={{ color: darkMode ? "white" : "" }}>Works for all these</span>
-        <span>Brands & clients</span>
+    <div className="works container">
+      <div className="row">
+      <div className="col-lg-8 awesome">
+        <h1  style={{ color: darkMode ? "white" : "" }}>Works for all these</h1>
+        <h1>Brands & clients</h1>
         <div>
           <p>
             I have worked with a wide range of brands and clients<br />
@@ -33,7 +34,7 @@ function Work() {
       </div>
 
       {/* right side */}
-      <div className="w-right">
+      {/* <div className="col-lg-4 w-right">
         <div className="w-mainCircle">
           <div className="w-secCircle">
             <img className="work" src={Savitha} alt="" />
@@ -51,9 +52,25 @@ function Work() {
             <img src={Facebook} alt="" />
           </div>
         </div>
-        {/* Background circle */}
+
         <div className="w-backCircle blueCircle" />
         <div className="w-backCircle yellowCircle"></div>
+      </div> */}
+          <div className="col-lg-4">
+  <div className="circle-container">
+    <div className="circle1 logo1"> <img className="work" src={Savitha} alt="" /></div>
+    <div className="circle1 logo2"><img src={Fiverr} alt="" /></div>
+    <div className="circle1 logo3"><img className="work" src={ Shopify} alt="" /></div>
+    <div className="circle1 logo4"><img src={Facebook} alt="" /></div>
+    <div className="circle1 logo5"> <img style={{transform:' scale(0.2)'}} src={India} alt="" /></div>
+
+    <div className=" yellowCircle"></div>
+    <div className=" blueCircle"> </div>
+    {/* <div className="w-backCircle blueCircle" />
+    <div className="w-backCircle yellowCircle"></div> */}
+  </div>
+  
+</div>
       </div>
     </div>
   );

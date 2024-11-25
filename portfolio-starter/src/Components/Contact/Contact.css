@@ -1,15 +1,10 @@
 .contact-form{
-    /* padding: 0 3rem 0 3rem;
-    display: flex;
-    height: 50vh;*/
+ 
     margin-top:4rem; 
 }
 
 .c-right{
-    /* display: flex;
-    justify-content: center;
-    position: relative;
-    flex: 1; */
+
 }
 .c-right>form{
     display: flex;
@@ -39,8 +34,6 @@ textarea{
     .contact-form{
        margin-top: 2rem;
     }
-    /* .c-right .user{
-        width: 16rem;
-    } */
+ 
 
 }   

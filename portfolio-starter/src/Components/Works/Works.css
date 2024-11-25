@@ -185,7 +185,7 @@
   border-radius: 50%;
   z-index: -99;
   bottom: 0%;
-  left: 74%;
+  left: 72%;
   transform: translate(-50%);
  }
  
@@ -226,20 +226,34 @@
 .blueCircle {
   width: 10rem;
   height: 10rem;
-  left: 10%;
+  left: 21%;
 }
  }
 
- @media (max-width: 992px){
+ @media (max-width: 991px){
+  .yellowCircle {
+    left: 60%;
+}
+.blueCircle {
+  left: 37%;
+}
   .logo3 {
-    right: 29%;
+    right: 31%;
   }
   .logo2 {
-    left: 29%;
+    left: 31%;
   }
  }
 
  @media (max-width: 767px) {
+  .logo3 {
+    right: 32%;
+  }
+  .logo2 {
+    left: 32%;
+}
+ }
+ @media (max-width: 574px) {
   .logo3 {
     right: 22%;
   }
@@ -254,12 +268,21 @@
   .logo2 {
     left: 15%;
 }
+.yellowCircle {
+  left: 72%;
 }
+.blueCircle {
+  left: 22%;
+}
+ }
  @media (max-width: 320px) {
   .circle1 {
     width: 90px;
     height: 90px;
   }
+  .yellowCircle {
+    left: 85%;
+}
   .logo1 {
     top: 13%;
   }

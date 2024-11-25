@@ -11,6 +11,7 @@
   /* padding: 1rem; */
 }
 
+
 /* .i-left { */
   /* margin: 0 2rem; */
   /* display: flex; */
@@ -318,6 +319,13 @@
 }
 .floatdiv-down {
   bottom: 45px;
+}
+.i-left{
+  text-align: center;
+    margin-top: 18px !important;
+}
+.i-icons {
+  justify-content: center;
 }
  }
   /* .i-name > span:nth-child(1),

@@ -51,7 +51,7 @@
         flex-direction: column; /* Stack achievements vertically */
         gap: 3rem; /* Reduce gap between items */
         height: auto; /* Remove fixed height for better flexibility */
-        margin-bottom: 4rem;
+        margin-bottom: 3rem;
     }
 
     .circle {

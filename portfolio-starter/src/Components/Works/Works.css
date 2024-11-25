@@ -249,10 +249,10 @@
 }
  @media (max-width: 425px) {
   .logo3 {
-    right: 10%;
+    right: 15%;
   }
   .logo2 {
-    left: 10%;
+    left: 15%;
 }
 }
  @media (max-width: 320px) {

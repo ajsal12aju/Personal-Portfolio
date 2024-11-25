@@ -2,7 +2,7 @@
     /* padding: 0 6rem 0 3rem; */
     /* display: flex; */
     /* height: 100vh; */
-    margin-top: 5rem;
+    margin-top: 1rem;
     margin-bottom: 4rem;
     /* flex-wrap: wrap; */
     /* justify-content: space-between; */
@@ -98,6 +98,14 @@
 }
 
 /* Mobile portrait adjustments */
+@media screen and (max-width: 576px) {
+    .awesome{
+        text-align: center;
+    }
+    .s-button {
+        margin: auto;
+    }
+}
 @media screen and (max-width: 480px) {
 
     .cards {

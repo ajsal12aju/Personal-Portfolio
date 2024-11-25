@@ -21,10 +21,10 @@ function Work() {
         <h1>Brands & clients</h1>
         <div>
           <p>
-            I have worked with a wide range of brands and clients<br />
-          from small businesses to Fortune 500 companies. I have helped <br />
-           them with a variety of projects, including website development, <br />
-            social media marketing, and content creation. I am confident that<br />
+            I have worked with a wide range of brands and clients
+          from small businesses to Fortune 500 companies. I have helped 
+           them with a variety of projects, including website development,
+            social media marketing, and content creation. I am confident that
              I can use my skills and experience to help you achieve your goals.
           </p>
         </div>

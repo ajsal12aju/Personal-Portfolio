@@ -22,7 +22,7 @@ function Work() {
         <div>
           <p>
             I have worked with a wide range of brands and clients
-          from small businesses to Fortune 500 companies. I have helped 
+          from small businesses to Fortune lot more companies. I have helped 
            them with a variety of projects, including website development,
             social media marketing, and content creation. I am confident that
              I can use my skills and experience to help you achieve your goals.

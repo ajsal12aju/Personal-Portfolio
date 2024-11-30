@@ -34,28 +34,7 @@ function Work() {
       </div>
 
       {/* right side */}
-      {/* <div className="col-lg-4 w-right">
-        <div className="w-mainCircle">
-          <div className="w-secCircle">
-            <img className="work" src={Savitha} alt="" />
-          </div>
-          <div className="w-secCircle">
-            <img src={Fiverr} alt="" />
-          </div>
-          <div className="w-secCircle ">
-            <img className="work" src={India} alt="" />
-          </div>
-          <div className="w-secCircle">
-            <img src={Shopify} alt="" />
-          </div>
-          <div className="w-secCircle">
-            <img src={Facebook} alt="" />
-          </div>
-        </div>
-
-        <div className="w-backCircle blueCircle" />
-        <div className="w-backCircle yellowCircle"></div>
-      </div> */}
+       
           <div className="col-lg-4">
   <div className="circle-container">
     <div className="circle1 logo1"> <img className="work" src={Savitha} alt="" /></div>
